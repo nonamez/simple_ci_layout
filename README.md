@@ -1,7 +1,7 @@
 Simple CodeIgniter Layout Libray
 ================
 
-To start using simply copy file to yours application/libraries/ folder. 
+To start using simply copy file to yours application/libraries/ folder and load it. 
 
 You can use it in controller like $this->layout->load(view_name, view_data, head_data, bottom_data);. Only the first parameter is required.
 
