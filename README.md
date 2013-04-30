@@ -7,5 +7,11 @@ You can use it in controller like $this->layout->load(view_name, view_data, head
 
 If needed, can set custom data before load method:
 
-  * $this->layout->setDocumentHead('head'); sets head.php as head from /application/view
-  * $this->layout->setHeadData(array('title' => 'Site Title')); sets $title in head file
+  * $this->layout->setDocumentHead('head') - sets head.php as head from /application/view
+  * $this->layout->setHeadData(array('title' => 'Site Title')) - sets $title in head.php file
+  * $this->layout->setGlobalData(array('some_var' => 'Some value') - now you can use $some_var in all views
+  * $this->layout->setBeforeContent(array('header', 'top_nav' => array('some_var' => 'Some value')) - load custom views with data
+  * $this->layout->setAfterContent('modal') - load one view
+
+P.S.
+In future will all load from files.
