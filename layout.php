@@ -6,8 +6,8 @@
  * This class enables use of simple layouts in CodeIgniter
  *
  * @category	Libraries
- * @author		Kiril "NoNameZ" Calkin
- * @link		https://github.com/nonamez/simple_ci_layout
+ * @author	Kiril "NoNameZ" Calkin
+ * @link	https://github.com/nonamez/simple_ci_layout
  */
 
 class Layout{
